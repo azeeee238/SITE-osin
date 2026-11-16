@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OSINT // Terminal d'Apprentissage</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap');
+        body {
+            font-family: 'Share Tech Mono', monospace;
+            background-color: #030712;
+            color: #00ff66;
+        }
+        .cyber-glow {
+            text-shadow: 0 0 10px rgba(0, 255, 102, 0.5);
+        }
+        .cyber-box {
+            border: 1px solid #00ff66;
+            box-shadow: 0 0 15px rgba(0, 255, 102, 0.15);
+            background: rgba(3, 7, 18, 0.9);
+            transition: all 0.2s ease-in-out;
+        }
+        .cyber-box:hover {
+            border-color: #ffffff;
+            box-shadow: 0 0 25px rgba(255, 255, 102, 0.4);
+            transform: translateY(-2px);
+        }
+    </style>
+</head>
+<body class="min-h-screen p-6">
+    <div class="max-w-4xl mx-auto">
+        <!-- En-tête -->
+        <header class="cyber-box p-6 mb-8 rounded-none">
+            <h1 class="text-3xl font-bold cyber-glow tracking-wider">⚡ PROTOCOLE_OSINT // MENU PRINCIPAL</h1>
+            <p class="text-emerald-400 mt-2 text-sm">> Sélectionne un module d'investigation ci-dessous :</p>
+        </header>
+
+        <!-- Grille des sections cliquables -->
+        <main class="grid gap-6 md:grid-cols-2">
+            <!-- Cadre 1 -->
+            <a href="section1.html" class="cyber-box p-6 block group">
+                <h2 class="text-xl font-bold mb-2 text-emerald-300 group-hover:text-white transition-colors">01 // C'est quoi l'OSINT ?</h2>
+                <p class="text-gray-300 text-sm">
+                    Définition, éthique, principes de base et logique d'investigation en sources ouvertes.
+                </p>
+                <span class="inline-block mt-4 text-xs text-emerald-500">> ACCÉDER AU MODULE_01_</span>
+            </a>
+
+            <!-- Cadre 2 -->
+            <a href="section2.html" class="cyber-box p-6 block group">
+                <h2 class="text-xl font-bold mb-2 text-emerald-300 group-hover:text-white transition-colors">02 // Les Sources Clés</h2>
+                <p class="text-gray-300 text-sm">
+                    Moteurs de recherche avancés, Dorking, réseaux sociaux et empreinte numérique.
+                </p>
+                <span class="inline-block mt-4 text-xs text-emerald-500">> ACCÉDER AU MODULE_02_</span>
+            </a>
+
+            <!-- Cadre 3 -->
+            <a href="section3.html" class="cyber-box p-6 block group">
+                <h2 class="text-xl font-bold mb-2 text-emerald-300 group-hover:text-white transition-colors">03 // Outils & Métadonnées</h2>
+                <p class="text-gray-300 text-sm">
+                    Analyse d'images, EXIF, recherche inversée et outils de repérage géospatial.
+                </p>
+                <span class="inline-block mt-4 text-xs text-emerald-500">> ACCÉDER AU MODULE_03_</span>
+            </a>
+
+            <!-- Cadre 4 -->
+            <a href="section4.html" class="cyber-box p-6 block group">
+                <h2 class="text-xl font-bold mb-2 text-emerald-300 group-hover:text-white transition-colors">04 // Cas Pratique</h2>
+                <p class="text-gray-300 text-sm">
+                    Mise en situation, résolution d'énigmes et méthodologie d'enquête pas à pas.
+                </p>
+                <span class="inline-block mt-4 text-xs text-emerald-500">> ACCÉDER AU MODULE_04_</span>
+            </a>
+        </main>
+
+        <!-- Footer -->
+        <footer class="mt-8 text-center text-xs text-emerald-600">
+            [ SYSTÈME OPÉRATIONNEL - SÉLECTIONNE UN CADRE ]
+        </footer>
+    </div>
+</body>
+</html>
